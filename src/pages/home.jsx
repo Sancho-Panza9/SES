@@ -31,9 +31,8 @@ export function Home() {
                 Energy starts with SES.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+                We specialize in energy industry consultancy and smart automation, enhancing operational 
+                efficiency and sustainability through expert guidance and cutting-edge technology.
               </Typography>
             </div>
           </div>
