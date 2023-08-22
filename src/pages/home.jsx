@@ -17,7 +17,7 @@ import { featuresData, teamData, contactData } from "@/data";
 export function Home() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
+      <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
         <div className="absolute top-0 h-full w-full bg-[url('https://caltechsites-prod.s3.amazonaws.com/scienceexchange/images/wind-turbine-future-energy.2e16d0ba.fill-933x525-c100.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
@@ -28,11 +28,12 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Energy starts with SES.
+                Automation starts with SES.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                We specialize in energy industry consultancy and smart automation, enhancing operational 
-                efficiency and sustainability through expert guidance and cutting-edge technology.
+                We specialize in energy industry consultancy and smart
+                automation, enhancing operational efficiency and sustainability
+                through expert guidance and cutting-edge technology.
               </Typography>
             </div>
           </div>
@@ -66,14 +67,20 @@ export function Home() {
                 Working with us is a pleasure
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
-                <br />
-                <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                Energy systems play a pivotal role in shaping modern societies
+                and driving technological advancements. These systems encompass
+                a wide array of sources, such as fossil fuels, renewable
+                resources like solar, wind, and hydroelectric power, as well as
+                nuclear energy. The way we generate, transmit, distribute, and
+                consume energy has profound implications for economic
+                development, environmental sustainability, and global energy
+                security.
+                <br></br>
+                As the world seeks to transition towards cleaner and more
+                sustainable energy solutions, the integration of smart grids,
+                energy storage technologies, and efficient demand-side
+                management strategies are becoming increasingly vital to ensure
+                a reliable and resilient energy supply for future generations.
               </Typography>
               <Button variant="outlined">read more</Button>
             </div>
@@ -92,12 +99,13 @@ export function Home() {
                     color="blue-gray"
                     className="mb-3 font-bold"
                   >
-                    Top Notch Services
+                    MES & Automation
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    Manufacturing Execution Systems (MES) integrate seamlessly
+                    with automation technologies to streamline production
+                    workflows, enhance operational efficiency, and enable
+                    data-driven decision-making in manufacturing processes.
                   </Typography>
                 </CardBody>
               </Card>
@@ -105,12 +113,11 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="px-4 pt-20 pb-48">
+      <section className="px-4 pb-48 pt-20">
         <div className="container mx-auto">
-          <PageTitle heading="Here are our heroes">
-            According to the National Oceanic and Atmospheric Administration,
-            Ted, Scambos, NSIDClead scentist, puts the potentially record
-            maximum.
+          <PageTitle heading="Our Solutions">
+            Integration of MES, Automation, and Mobile Application for Enhanced
+            Manufacturing Efficiency
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
@@ -133,14 +140,14 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="relative bg-blue-gray-50/50 py-24 px-4">
+      <section className="relative bg-blue-gray-50/50 px-4 py-24">
         <div className="container mx-auto">
           <PageTitle heading="Build something">
             Put the potentially record low maximum sea ice extent tihs year down
             to low ice. According to the National Oceanic and Atmospheric
             Administration, Ted, Scambos.
           </PageTitle>
-          <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mb-48 mt-20 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
               <Card
                 key={title}

@@ -1,78 +1,30 @@
 export const teamData = [
   {
-    img: "/img/team-1.jpg",
-    name: "Ryan Tompson",
-    position: "Web Developer",
+    img: "/img/kalyon.jpg",
+    name: "Kalyon Energy",
+    position: "Solar Energy",
     socials: [
-      {
-        color: "light-blue",
-        name: "twitter",
-      },
-      {
-        color: "blue",
-        name: "facebook",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
-      },
     ],
   },
   {
-    img: "/img/team-2.jpg",
-    name: "Romina Hadid",
-    position: "Marketing Specialist",
+    img: "/img/enerjisa.jpg",
+    name: "Enerjisa",
+    position: "Electric Energy",
     socials: [
-      {
-        color: "light-blue",
-        name: "twitter",
-      },
-      {
-        color: "blue",
-        name: "facebook",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
-      },
     ],
   },
   {
-    img: "/img/team-3.jpg",
-    name: "Alexa Smith",
-    position: "UI/UX Designer",
+    img: "/img/cw1.jpg",
+    name: "CW Energy",
+    position: "Solar Energy",
     socials: [
-      {
-        color: "light-blue",
-        name: "twitter",
-      },
-      {
-        color: "blue",
-        name: "facebook",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
-      },
     ],
   },
   {
-    img: "/img/team-4.png",
-    name: "Jenna Kardi",
-    position: "Founder and CEO",
+    img: "/img/enka.png",
+    name: "Enka Enerji",
+    position: "Wind Power Plant",
     socials: [
-      {
-        color: "light-blue",
-        name: "twitter",
-      },
-      {
-        color: "blue",
-        name: "facebook",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
-      },
     ],
   },
 ];

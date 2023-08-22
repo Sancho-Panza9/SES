@@ -7,24 +7,24 @@ import {
 export const featuresData = [
   {
     color: "blue",
-    title: "Awarded Agency",
+    title: "Energy",
     icon: StarIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "Energy is the driving force behind all processes and activities in the universe, essential for powering everything from our homes to the technologies that shape our daily lives.",
   },
   {
     color: "red",
-    title: "Free Revisions",
+    title: "MES",
     icon: ArrowPathIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Manufacturing Execution Systems (MES) facilitate the coordination and optimization of production processes by providing real-time monitoring, data collection, and analysis within manufacturing environments.",
   },
   {
-    color: "teal",
-    title: "Verified Company",
+    color: "Otomation",
+    title: "Automation",
     icon: FingerPrintIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "Automation involves the use of technology to control and operate processes without human intervention, leading to increased efficiency and precision in various industries.",
   },
 ];
 
