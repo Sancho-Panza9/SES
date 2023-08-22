@@ -20,15 +20,14 @@ export function Navbar({ brandName, routes, action }) {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-1 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-1 flex flex-col gap-1 text-inherit lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {routes.map(({ name, path, icon, href, target }) => (
         <Typography
           key={name}
           as="li"
-          variant="small"
+          variant="h5"
           color="inherit"
           className="capitalize"
-          style = {{fontSize : "20px"}}
         >
           {href ? (
             <a
@@ -62,8 +61,8 @@ export function Navbar({ brandName, routes, action }) {
 
   return (
     <MTNavbar color="transparent" className="h-3">
-      <div className="container mx-auto flex  justify-start">
-        <Link to="/" style={{width : "15%", float : "left", marginBottom : "3%"}}>
+      <div className="container mx-auto flex  justify-start py-6">
+        <Link to="/" style={{width : "15%",}}>
           <img src="logo.png" />
         </Link>
       </div>
