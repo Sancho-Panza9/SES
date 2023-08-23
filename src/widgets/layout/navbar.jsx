@@ -25,7 +25,7 @@ export function Navbar({ brandName, routes, action }) {
         <Typography
           key={name}
           as="li"
-          variant="h5"
+          variant="h6"
           color="inherit"
           className="capitalize"
         >
@@ -62,7 +62,7 @@ export function Navbar({ brandName, routes, action }) {
   return (
     <MTNavbar color="transparent" className="h-3">
       <div className="container mx-auto flex  justify-start py-6">
-        <Link to="/" style={{width : "15%",}}>
+        <Link to="/" style={{width : "25%",}}>
           <img src="logo.png" />
         </Link>
       </div>
